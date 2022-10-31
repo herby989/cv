@@ -20,22 +20,27 @@ body{
     background-color: #003147;
     height: 200px;
     width: 30%;
+    min-height: 1000px;
 }
 
 .right-side{
     background-color: #fff;
     height:200px;
     width: 70%;
+    min-height: 1000px;
 }
 
 img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    margin: 50px;
+    width: 50%;
+    border-radius: 100px;
+    padding: auto;
+    margin: auto;
+    
 }
 
 .imgBox{
     text-align: center;
+    position: relative;
+    padding: 50px;
     
 }
