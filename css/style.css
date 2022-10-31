@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    justify-content: center;
+    background-color:antiquewhite;
+}
+
+.left-side{
+    background-color: #003147;
+    height: 200px;
+    width: 30%;
+}
+
+.right-side{
+    background-color: #fff;
+    height:200px;
+    width: 70%;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.imgBox{
+    text-align: center;
+    
+}
